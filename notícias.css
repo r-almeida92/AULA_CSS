@@ -11,3 +11,10 @@ h3{
 p{
     font-size: 20px;
 }
+#politics h2{
+    color: green
+}
+
+#games h2{
+    color: goldenrod
+}
