@@ -4,11 +4,10 @@
     padding: 0;
 }
 
-.container{
-    width: 1920;
+.container {
+    width: 1920px;
     margin: 0 auto;
-    display: inline-block;
-}
+    }
 
 h1{
     font-size: 48px;
