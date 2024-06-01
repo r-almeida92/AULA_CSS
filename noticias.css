@@ -5,13 +5,26 @@
 }
 
 .container {
-    width: 1920px;
+    width: 1366px;
     margin: 0 auto;
-    }
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 180px;
+}
+
+.articles article {
+    width: 30%
+}
 
 h1{
     font-size: 48px;
-    color:rgb(114, 114, 114)
 }
 
 h2{
@@ -24,12 +37,4 @@ h3{
 
 p{
     font-size: 20px;
-}
-
-#politics h2{
-    color: green
-}
-
-#games h2{
-    color: goldenrod
 }
