@@ -38,3 +38,15 @@ h3{
 p{
     font-size: 20px;
 }
+
+.whatsapp img{
+    height: 100px;
+    border: none;
+    padding: 0;
+    cursor: pointer
+}
+
+.button-whatsapp {
+    background: none;
+    
+}
