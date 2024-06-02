@@ -4,6 +4,26 @@
     padding: 0;
 }
 
+body > header {
+    background-color: #2f3640;
+    color: white;
+    padding: 16px 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a{
+    color: white;
+}
+
 .container {
     width: 1366px;
     margin: 0 auto;
@@ -37,6 +57,27 @@ h3{
 
 p{
     font-size: 20px;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #2f3640;
+    color: white;
+    padding: 8px;
+    display: inline-block;
 }
 
 /*.whatsapp img{
