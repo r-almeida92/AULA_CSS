@@ -85,6 +85,7 @@ section h2,
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 4px;
 }
 
 .articles article a:hover {
@@ -97,13 +98,41 @@ article a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*#games {
-    background-color: rgba(0,0,0,0.1);
-}*/
+#sports {
+    background-color: rgba(0,125,255,0.18);
+}
 
-/*#games .articles article a {
-    background-color: rgba(0,0,0);
-}*/
+#sports .articles article a {
+    background-color: rgba(0,100,200,1);
+}
+
+#economy {
+    background-color: rgba(125,255,125,0.1);
+}
+
+#economy .articles article a {
+    background-color: rgba(0,200,100,1);
+}
+
+#games {
+    background-color: rgba(255,174,0,0.18);
+}
+
+#games .articles article a {
+    background-color: rgba(255,174,0);
+}
+
+#games .articles article a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#politics {
+    background-color: rgba(0,0,0,0.1);
+}
+
+#politics .articles article a {
+    background-color: #2f3640;
+}
 
 /*.whatsapp img{
     height: 100px;
